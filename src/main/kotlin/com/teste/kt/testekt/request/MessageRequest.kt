@@ -1,4 +1,3 @@
 package com.teste.kt.testekt.request
 
-class MessageRequest {
-}
+data class MessageRequest(val message: String)

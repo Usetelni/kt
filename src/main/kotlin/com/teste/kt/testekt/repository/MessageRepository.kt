@@ -1,4 +1,7 @@
 package com.teste.kt.testekt.repository
 
-interface MessageRepository {
+import com.teste.kt.testekt.model.Message
+import org.springframework.data.repository.CrudRepository
+
+interface MessageRepository: CrudRepository<Message, String> {
 }
